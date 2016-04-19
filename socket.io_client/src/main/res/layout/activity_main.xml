@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1f1f1"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@drawable/anniu_shape"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/make_click_month"
+            style="@style/style_linearlayout" >
+
+            <TextView
+                style="@style/style_textview"
+                android:layout_marginLeft="@dimen/normal_margin"
+                android:text="@string/tablet_adress"
+                android:textColor="@color/text_normal_gray_333333" />
+
+            <TextView
+                android:id="@+id/adress_textview"
+                style="@style/style_textview"
+                android:layout_width="0dp"
+                android:clickable="true"
+                android:layout_marginRight="6dp"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="@color/text_normal_blue_5aaee7" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/normal_margin"
+                android:src="@drawable/arrow" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

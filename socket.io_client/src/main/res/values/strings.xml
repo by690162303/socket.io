@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Adress</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="tablet_adress">门牌地址</string>
+    <string name="input_adress">请输入门牌地址</string>
+    <string name="queding">确定</string>
+    <string name="quexiao">取消</string>
+
+</resources>
